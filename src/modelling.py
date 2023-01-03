@@ -8,6 +8,7 @@ from nltk.tokenize import word_tokenize
 class Modelling:
     def __init__(self):
         nltk.download('punkt')
+        nltk.download('stopwords')
         self.vectorizer = TfidfVectorizer()
 
     def detect_language(self, text):
