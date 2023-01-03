@@ -14,6 +14,8 @@ print(os.getenv("TENOR_KEY"))
 print(os.getenv("MICROSOFT_TRANSLATOR"))
 print(os.getenv("MICROSOFT_LOCATION"))
 
+
+
 # Create the Modelling object
 modelling = Modelling()
 
