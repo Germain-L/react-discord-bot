@@ -8,6 +8,12 @@ import discord
 
 load_dotenv()
 
+print(os.getenv("DISCORD_KEY"))
+print(os.getenv("GIPHY_KEY"))
+print(os.getenv("TENOR_KEY"))
+print(os.getenv("MICROSOFT_TRANSLATOR"))
+print(os.getenv("MICROSOFT_LOCATION"))
+
 # Create the Modelling object
 modelling = Modelling()
 
