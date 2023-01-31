@@ -14,7 +14,7 @@ variable "GITHUB_ACCESS_TOKEN" {
 
 variable "github_repository" {
   type = string
-  default = "https://github.com/Germain-L/react-discord-bot.git#main"
+  default = "https://github.com/Germain-L/react-discord-bot.git"
 }
 
 variable "GIPHY_KEY" {
@@ -23,4 +23,8 @@ variable "GIPHY_KEY" {
 
 variable "TENOR_KEY" {
 
+}
+
+variable "DISCORD_KEY" {
+  
 }
