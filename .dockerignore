@@ -1,5 +1,4 @@
 venv
-.env
 .idea
 
 # Local .terraform directories
@@ -36,4 +35,4 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
-.env
+venv/
